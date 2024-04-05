@@ -25,6 +25,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 @RestController
 @RequestMapping("/consults")
 //@RequestMapping("${consult.controller.path}")
+//Inyección de dependencias por constructor
 @RequiredArgsConstructor // los atributos que están marcados como finales serán inyección de dependencias
 public class ConsultController {
 
